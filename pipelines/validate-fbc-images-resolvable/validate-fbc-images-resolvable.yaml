@@ -106,9 +106,9 @@ spec:
         resolver: "git"
         params:
           - name: url
-            value: https://github.com/konflux-ci/community-catalog.git
+            value: https://github.com/fontivan/konflux-ci-community-catalog.git
           - name: revision
-            value: development
+            value: sskeard/cnf-20884-add-github-validation-testing
           - name: pathInRepo
             value: tasks/download-file-from-git-repo/download-file-from-git-repo.yaml
       params:
@@ -143,9 +143,9 @@ spec:
         resolver: "git"
         params:
           - name: url
-            value: https://github.com/konflux-ci/community-catalog.git
+            value: https://github.com/fontivan/konflux-ci-community-catalog.git
           - name: revision
-            value: development
+            value: sskeard/cnf-20884-add-github-validation-testing
           - name: pathInRepo
             value: tasks/validate-fbc-images-resolvable/validate-fbc-images-resolvable.yaml
       params:
